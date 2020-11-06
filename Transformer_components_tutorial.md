@@ -16,11 +16,18 @@ Last updated: 11/05/2020
 
 1. Attention
 
+## Positional Encoding
+
+Trax [documentation](https://trax-ml.readthedocs.io/en/latest/trax.layers.html?highlight=PositionalEncoding#trax.layers.attention.PositionalEncoding)
+
+
 
 ## Dot-Product Attention
 
 
 ## Causal Attention
+
+Handy Trax implementation: `tl.CausalAttention()`
 
 Causal attention only look at the previous words. The gist of implementation is to use a mask to neglect the words in the future.
 
