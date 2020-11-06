@@ -68,3 +68,6 @@ Below summaries the shapes of the tensors at each stage:
 | After attention | (batch_size, n_heads, sentence_length, d_head) |
 | Transpose | (batch_size, sentence_length, n_heads * d_head) |
 | Linear layer | (batch_size, sentence_length, embedding_dim) |
+
+## Cost Function
+The cost function of the summarizer is the sum of the cross entropy loss from the generated summaries, neglecting the source texts.
