@@ -50,7 +50,9 @@ The articles and summaries can be loaded by calling keys = ('article', 'highligh
 I implemented a Transformer model from scratch for this task.
 
 [![transformer-full-architecture.png](https://i.postimg.cc/FFV4gps8/transformer-full-architecture.png)](https://postimg.cc/s1xq3pW4)
-
+<p align="center">
+    Transformer architecture. Image  adapted from the original paper "Attention is all you need"
+</p>
 
 ## Code
 
